@@ -5991,11 +5991,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Himani\\Code\\Angular\\UserWebAPI\\UserWebAPI\\UserWebAPI.csproj",
+      "projectUniqueName": "C:\\Himani\\Code\\NetCore\\UserWebAPI\\UserWebAPI\\UserWebAPI.csproj",
       "projectName": "UserWebAPI",
-      "projectPath": "C:\\Himani\\Code\\Angular\\UserWebAPI\\UserWebAPI\\UserWebAPI.csproj",
+      "projectPath": "C:\\Himani\\Code\\NetCore\\UserWebAPI\\UserWebAPI\\UserWebAPI.csproj",
       "packagesPath": "C:\\Users\\bhatt\\.nuget\\packages\\",
-      "outputPath": "C:\\Himani\\Code\\Angular\\UserWebAPI\\UserWebAPI\\obj\\",
+      "outputPath": "C:\\Himani\\Code\\NetCore\\UserWebAPI\\UserWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bhatt\\AppData\\Roaming\\NuGet\\NuGet.Config",

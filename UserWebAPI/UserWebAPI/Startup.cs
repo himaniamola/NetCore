@@ -19,6 +19,7 @@ namespace UserWebAPI
 {
     public class Startup
     {
+        private readonly string _loginOrigin="_localOrigin";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -51,6 +52,12 @@ namespace UserWebAPI
                     RequireExpirationTime=true
                 };
             });
+
+            services.AddCors(opt => {
+                opt.AddPolicy(_loginOrigin, builder => {
+                    builder.AllowAnyOrigin(); builder.AllowAnyHeader(); builder.AllowAnyMethod();
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -65,7 +72,7 @@ namespace UserWebAPI
             app.UseAuthentication();
             app.UseAuthorization();
 
-            app.UseCors();
+            app.UseCors(_loginOrigin);
 
             app.UseEndpoints(endpoints =>
             {

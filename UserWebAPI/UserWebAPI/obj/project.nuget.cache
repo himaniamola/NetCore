@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iau+j2DRn4lPoqOjV30bGPpEwYAvIh/jZLrQ4ysQi9SIayB2ZEHVg7gVa6Q688sbK59OFKBgbhkeHmLj1rMdFg==",
+  "dgSpecHash": "Sv39+8LoL/56QZJKLgGXbC2AK+S5xjR4QzsuXuchwZcrhLL0PVAKrerquApK/puMmCx4PtfEce5AjlgpoUtLMw==",
   "success": true,
-  "projectFilePath": "C:\\Himani\\Code\\Angular\\UserWebAPI\\UserWebAPI\\UserWebAPI.csproj",
+  "projectFilePath": "C:\\Himani\\Code\\NetCore\\UserWebAPI\\UserWebAPI\\UserWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bhatt\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\bhatt\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.19\\microsoft.aspnetcore.authentication.jwtbearer.3.1.19.nupkg.sha512",
